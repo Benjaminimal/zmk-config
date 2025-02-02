@@ -22,7 +22,7 @@
 &kp TAB               &kp Q        &kp W        &kp E       &kp R        &kp T    &kp Y  &kp U        &kp I       &kp O        &kp P           &kp BSPC
 &kp ESC               &mt LCTRL A  &mt LMETA S  &mt LALT D  &mt LSHFT F  &kp G    &kp H  &mt RSHFT J  &mt RALT K  &mt RMETA L  &mt RCTRL SEMI  &kp ENTER
 &kp NON_US_BACKSLASH  &kp Z        &kp X        &kp C       &kp V        &kp B    &kp N  &kp M        &kp COMMA   &kp DOT      &kp FSLH        &kp MINUS
-                                                &mo 0       &kp SPACE    &mo 4    &mo 5  &mo 0        &mo 3
+                                                &mo 0       &kp SPACE    &mo 4    &mo 5  &mo 0        &mo 0
             >;
         };
 
@@ -46,10 +46,10 @@
 
         layer_navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &none      &none     &none     &none      &none     &kp HOME  &kp PG_DN       &kp PG_UP    &kp END          &kp DEL        &trans
+&trans  &kp LCTRL  &kp LGUI  &kp LALT  &kp LSHFT  &none     &kp LEFT  &mt RSHFT DOWN  &mt RALT UP  &mt RMETA RIGHT  &mt RCTRL INS  &trans
+&none   &none      &none     &none     &none      &none     &none     &none           &none        &none            &none          &none
+                             &trans    &trans     &trans    &trans    &trans          &trans
             >;
         };
 
