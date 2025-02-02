@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 
 // Layer aliases
 
@@ -65,7 +66,7 @@
 
         layer_navigation {
             bindings = <
-&trans  &none      &none      &none      &none      &none     &kp HOME  &kp PG_DN       &kp PG_UP    &kp END          &kp DEL        &trans
+&trans  &kt LCTRL  &kt LMETA  &kt LALT   &kt LSHFT  &none     &kp HOME  &kp PG_DN       &kp PG_UP    &kp END          &kp DEL        &trans
 &trans  &kp LCTRL  &kp LGUI   &kp LALT   &kp LSHFT  &none     &kp LEFT  &mt RSHFT DOWN  &mt RALT UP  &mt RMETA RIGHT  &mt RCTRL INS  &trans
 &none   &none      &kp LC(X)  &kp LC(C)  &kp LC(V)  &none     &none     &kp K_CMENU     &none        &none            &none          &none
                               &trans     &trans     &trans    &trans    &trans          &trans
