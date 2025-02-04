@@ -22,6 +22,11 @@
 #define L_FNC 4  // function
 #define L_MTA 5  // meta
 
+&mt {
+    tapping-term-ms = <200>;
+    flavor = "tap-preferred";
+};
+
 / {
     combos {
         compatible = "zmk,combos";
