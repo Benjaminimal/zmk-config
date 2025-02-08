@@ -1,8 +1,6 @@
 /*
  * TODO:
  *
- * - check this out if home row mods keep causing trouble
- *   https://zmk.dev/docs/keymaps/behaviors/hold-tap#require-prior-idle-ms
  * - consider increasing bluetooth strength if connection is weak
  *   https://zmk.dev/docs/troubleshooting/connection-issues#unreliableweak-connection
  *
