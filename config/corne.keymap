@@ -82,7 +82,7 @@
 
         layer_function {
             bindings = <
-&trans  &kp ESC       &kp KP_NLCK   &kp SLCK     &none         &kp F6    &kp F7  &kp PSCRN     &none        &none         &none          &trans
+&trans  &kp ESC       &kp KP_NLCK   &kp SLCK     &none         &kp F11   &kp F12 &kp PSCRN     &none        &none         &none          &trans
 &trans  &hm LCTRL F1  &hm LMETA F2  &hm LALT F3  &hm LSHFT F4  &kp F5    &kp F6  &hm RSHFT F7  &hm RALT F8  &hm RMETA F9  &hm RCTRL F10  &trans
 &none   &none         &none         &none        &none         &none     &none   &none         &none        &none         &none          &none
                                     &trans       &trans        &trans    &trans  &trans        &trans
